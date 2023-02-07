@@ -1,0 +1,106 @@
+  * {
+    font-family: 'Amiri', serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+.navbar {
+  padding: 20px;
+  background-color: #000;
+  height: 50px;
+}
+.navbar li a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+    margin-left: 30px;
+
+}
+.navbar ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+.container {
+  background-color:antiquewhite;
+  margin-left: 50px;
+}
+
+.col-md-12 h1 {
+  text-transform: uppercase;
+  color: aquamarine;
+}
+.col-md-5 .form{
+  background-color: gray;
+  width: 650px;
+  height: 800px;
+}
+.col-md-5 .form div {
+  width: 100%;
+  height: 30px;
+  padding: 30px;
+}
+div label {
+  width: 30%;
+  text-transform: capitalize;
+  text-align: left;
+  color: #fff;
+  font-size: 18pt;
+  font-family: roboto;
+
+}
+div input,select {
+  width: 60%;
+  height: 30px;
+  margin-left: 50px;
+
+}
+.form button{
+    background-color: darksalmon;
+    color:#fff;
+    font-size: 18pt;
+    font-family: roboto;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding:3pt;
+    width: 250px;
+    height: 40px;
+}
+.col-md-12{
+  padding: 30px;
+}
+.col-md-5 {
+  display: inline-block;
+  margin: 20px;
+  padding: 30px;
+  border: #000 3px solid;
+}
+.col-md-5 img{
+  display: inline-block;
+  width: 90%;
+  height: 100%;
+}
+footer {
+  padding: 20px;
+  background-color: #000;
+  height: 50px;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
