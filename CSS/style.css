@@ -54,7 +54,7 @@ div input,select {
   margin-left: 50px;
 
 }
-.form button{
+button{
     background-color: darksalmon;
     color:#fff;
     font-size: 18pt;
@@ -66,6 +66,10 @@ div input,select {
     width: 250px;
     height: 40px;
 }
+button:hover {
+  background-color: blanchedalmond;
+  color: #000;
+}
 .col-md-12{
   padding: 30px;
 }
@@ -73,7 +77,6 @@ div input,select {
   display: inline-block;
   margin: 20px;
   padding: 30px;
-  border: #000 3px solid;
 }
 .col-md-5 img{
   display: inline-block;
@@ -84,6 +87,8 @@ footer {
   padding: 20px;
   background-color: #000;
   height: 50px;
+  color:#fff;
+  text-align: center;
 }
 /* unvisited link */
 a:link {
