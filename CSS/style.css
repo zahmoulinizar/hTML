@@ -2,32 +2,44 @@
     font-family: 'Amiri', serif;
     font-family: 'Kumbh Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+  }
+  header {
+    width: auto;
+    height: 400px;
+    background-image:url("../image/INSERER-IMAGES-POUR-FORMAT-SLIDER4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 .navbar {
-  padding: 20px;
-  background-color: #000;
-  height: 50px;
+  padding: 10px;
+  float: right;
+  height: 35px;
 }
-.navbar li a {
+.navbar a {
     display: inline-block;
     text-decoration: none;
-    text-transform: uppercase;
-    color:#fff;
-    margin-left: 30px;
+    text-transform: capitalize;
+    color:#3f7dc1;
+    margin: 10px;
+    font-size: 18pt;
+    word-spacing: 2px;
+    letter-spacing: 3px;
 
 }
-.navbar ul li {
-  display: inline-block;
-  text-decoration: none;
+.navbar a:hover {
+  color: gray;
+  font-size: 48px;
 }
 .container {
   background-color:antiquewhite;
-  margin-left: 50px;
 }
 
 .col-md-12 h1 {
   text-transform: uppercase;
-  color: aquamarine;
+  color: #3f7dc1;
 }
 .col-md-5 .form{
   background-color: gray;
@@ -36,50 +48,55 @@
 }
 .col-md-5 .form div {
   width: 100%;
-  height: 30px;
+  height: 50px;
   padding: 30px;
 }
 div label {
-  width: 30%;
+  width: 50%;
   text-transform: capitalize;
   text-align: left;
   color: #fff;
-  font-size: 18pt;
-  font-family: roboto;
-
+  font-size: 14pt;
 }
 div input,select {
+  display: block;
   width: 60%;
   height: 30px;
+  padding: 5px;
   margin-left: 50px;
 
 }
 button{
     background-color: darksalmon;
+    float: right;
     color:#fff;
     font-size: 18pt;
-    font-family: roboto;
-    margin: 20px;
+    margin: 50px;
     text-align: center;
     text-transform: uppercase;
-    padding:3pt;
+    padding:10pt;
     width: 250px;
-    height: 40px;
+    height: 60px;
+    border: transparent;
+    border-radius: 50px;
 }
 button:hover {
   background-color: blanchedalmond;
   color: #000;
 }
 .col-md-12{
-  padding: 30px;
+  background-color: aliceblue;
+  padding: 20px;
+  margin-top: 30px;
+
 }
 .col-md-5 {
   display: inline-block;
-  margin: 20px;
-  padding: 30px;
+  padding: 20px;
+  top: 0;
+  left:0 ;
 }
 .col-md-5 img{
-  display: inline-block;
   width: 90%;
   height: 100%;
 }
@@ -90,22 +107,3 @@ footer {
   color:#fff;
   text-align: center;
 }
-/* unvisited link */
-a:link {
-    color: red;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
